@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +16,7 @@
 
 <body>
     <header>
-        <div>
-            <img src="../assets/logo3.svg" alt="">
-        </div>
-        <h1>THP Solution <sup><small>©</small></sup></h1>
+        <h1>THP Solution<sup><small>©</small></sup></h1>
     </header>
 
     <main>
@@ -49,11 +46,12 @@
                 <input type="text" name="tipoEmpresa" placeholder="Ex: Ramo de advocacia autônomo...">
                 <label for="dataAg">Data para contato:</label>
                 <input type="date" name="dataAg">
-                <label for="horario">Qaul melhor horário?</label>
+                <label for="horario">Qual melhor horário?</label>
                 <input type="time" name="horario">
                 <label for="textoFinal">Agora detalhe seu tipo de serviço:</label>
                 <textarea name="textoFinal"
                     placeholder="Ex: Site institucional com foco na experiência do usuário, moderno etc."></textarea>
+                <input type="submit" class="btn" value="Enviar">
             </form>
         </fieldset>
     </main>

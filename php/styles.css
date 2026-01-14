@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(48, 3, 70), rgb(34, 5, 43));
+    color: white;
+}
+
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(69, 27, 104), rgb(121, 8, 173), rgb(76, 1, 197));
+    box-shadow: 0px 0px 10px 3px black;
+    color: white;
+    border-bottom: 2px solid rgb(213, 121, 255);
+}
+
+main h2{
+    width: 570px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(69, 27, 104);
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 20px;
+    padding: 20px;
+    border-top: 2px solid rgb(213, 121, 255);
+    margin-top: 20px;
+}
+
+label{
+    padding: 5px 10px;
+    background-color: rgb(49, 16, 77);
+    border-radius: 5px;
+}
+
+section form{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 20px;
+    border-top: 2px solid rgb(213, 121, 255);
+    border-bottom: 2px solid rgb(213, 121, 255);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(69, 27, 104), rgb(65, 19, 138));
+    box-shadow: 0px 0px 15px 1px rgb(194, 63, 255);
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(211, 117, 255);
+    font-weight: 500;
+    transition: 0.2s;
+}
+input:hover{
+    background-color: rgb(240, 206, 255);
+}
+input::placeholder{
+    color: white;
+}
+.number{
+    width: 50%;
+}
+.btn{
+    width: 40%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to right, rgb(49, 17, 75), rgb(86, 8, 122));
+    box-shadow: 0px 0px 5px rgb(44, 44, 44);
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 10px rgb(211, 117, 255);
+}
+.btn:active{
+    box-shadow: 0px 0px 10px 5px rgb(211, 117, 255);
+    transform: scale(0.9);
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(69, 27, 104), rgb(65, 19, 138));
+    width: 600px;
+    border: 2px solid rgb(211, 117, 255);
+    box-shadow: 0px 0px 15px 1px rgb(194, 63, 255);
+}
+
+fieldset form{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 18px;
+    padding: 30px;
+    
+}
+
+label, legend{
+    padding: 5px 10px;
+    background-color: rgb(49, 16, 77);
+    border-radius: 5px;
+}
+
+select{
+    width: 60%;
+    padding: 5px 10px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(211, 117, 255);
+    font-weight: 500;
+    transition: 0.2s;
+    color: white;
+}
+
+textarea{
+    width: 80%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(211, 117, 255);
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+textarea::placeholder{
+    color: white;
+}
+
